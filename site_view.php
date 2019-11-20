@@ -23,7 +23,7 @@
 	if (mysql_num_rows($result) > 0) {
     
 		// Storing the returned array in response
-		$response["Sensor_Data"] = array();
+		//$response["Sensor_Data"] = array();
 	 
 		// While loop to store all the returned response in variable
 		while ($row = mysql_fetch_array($result)) {
@@ -55,8 +55,8 @@
 	else 
 	{
 		// If no data is found
-		$response["success"] = 0;
-		$response["message"] = "No data on Sensor_Data found";
+		//$response["success"] = 0;
+		//$response["message"] = "No data on Sensor_Data found";
 		echo '<h3>No Data Found</h3>';
 	 
 		// Show JSON response
