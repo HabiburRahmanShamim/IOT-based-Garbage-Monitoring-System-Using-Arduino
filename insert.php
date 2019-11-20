@@ -27,7 +27,7 @@ if (isset($_GET['distance_cm']) && isset($_GET['distance_inch'])) {
     if ($result) {
         // successfully inserted 
         $response["success"] = 1;
-        $response["message"] = "Weather successfully created.";
+        $response["message"] = "Value successfully created.";
  
         // Show JSON response
         echo json_encode($response);
