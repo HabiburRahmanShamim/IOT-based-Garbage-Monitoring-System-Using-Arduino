@@ -6,8 +6,8 @@
 float duration, distance; // Duration used to calculate distance
  
  
-const char* ssid = "Dementor"; // WiFi name
-const char* password = "235711131719"; // WiFi passward
+const char* ssid = "MERCUSYS_BD20"; // WiFi name
+const char* password = ""; // WiFi passward
 const char* host = "iot-based-garbage-monitoring-system.000webhostapp.com"; //website hosting page url
 
 void setup() {
@@ -88,3 +88,4 @@ void loop() {
   Serial.println("closing connection");
   delay(6000);
 }
+ 
